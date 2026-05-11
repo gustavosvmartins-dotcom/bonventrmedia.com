@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quando procurar um dermatologista em Campinas?</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --primary: #0f4c81;
+      --border: #e5e7eb;
+      --max-width: 1240px;
+      --shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .wrap {
+      width: min(100% - 32px, var(--max-width));
+      margin: 40px auto;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 320px;
+      gap: 28px;
+      align-items: start;
+    }
+
+    .post {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 36px;
+      box-shadow: var(--shadow);
+    }
+
+    .post-meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 14px;
+    }
+
+    .post-title {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      line-height: 1.15;
+      margin-bottom: 18px;
+    }
+
+    .post-excerpt {
+      font-size: 1.05rem;
+      color: var(--muted);
+      margin-bottom: 28px;
+    }
+
+    .post-cover {
+      width: 100%;
+      border-radius: 14px;
+      margin-bottom: 30px;
+      overflow: hidden;
+      background: #eef2f7;
+    }
+
+    .post-cover img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .post-content h1 {
+      font-size: 2rem;
+      margin: 0 0 20px;
+      line-height: 1.2;
+    }
+
+    .post-content h2 {
+      font-size: 1.6rem;
+      margin: 34px 0 14px;
+      line-height: 1.25;
+    }
+
+    .post-content h3 {
+      font-size: 1.25rem;
+      margin: 26px 0 12px;
+      line-height: 1.3;
+    }
+
+    .post-content p {
+      margin-bottom: 18px;
+      font-size: 1rem;
+    }
+
+    .post-content ul,
+    .post-content ol {
+      margin: 0 0 20px 22px;
+    }
+
+    .post-content li {
+      margin-bottom: 8px;
+    }
+
+    .post-content blockquote {
+      border-left: 4px solid var(--primary);
+      background: #f8fbff;
+      padding: 16px 18px;
+      margin: 24px 0;
+      color: #374151;
+      border-radius: 8px;
+    }
+
+    .post-content img {
+      width: 100%;
+      border-radius: 14px;
+      margin: 24px 0;
+    }
+
+    .post-footer {
+      margin-top: 34px;
+      padding-top: 22px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .content-inline-related {
+      margin: 28px 0 26px;
+      padding-left: 14px;
+      border-left: 4px solid #e67e22;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    .content-inline-related-label {
+      font-weight: 800;
+      color: #4a4a4a;
+    }
+
+    .content-inline-related-link {
+      color: #e67e22;
+      font-weight: 700;
+      text-decoration: underline;
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 2px;
+    }
+
+    .content-inline-related-link:hover {
+      color: #c96a17;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .sidebar-card,
+    .bottom-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 22px;
+      box-shadow: var(--shadow);
+    }
+
+    .sidebar-title,
+    .bottom-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: var(--text);
+    }
+
+    .sidebar-list,
+    .bottom-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .sidebar-item,
+    .bottom-item {
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .sidebar-item:last-child,
+    .bottom-item:last-child {
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+
+    .sidebar-link,
+    .bottom-link {
+      display: block;
+      color: var(--text);
+      font-weight: 600;
+      line-height: 1.45;
+    }
+
+    .sidebar-link:hover,
+    .bottom-link:hover {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .sidebar-meta,
+    .bottom-meta {
+      display: block;
+      margin-top: 6px;
+      font-size: 0.85rem;
+      color: var(--muted);
+      line-height: 1.4;
+    }
+
+    .post-bottom {
+      margin-top: 28px;
+    }
+
+    .loading-text,
+    .empty-text {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 1024px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        position: static;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .wrap {
+        margin: 20px auto;
+      }
+
+      .post {
+        padding: 22px;
+      }
+
+      .sidebar-card,
+      .bottom-card {
+        padding: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="layout">
+      <article class="post">
+        <div class="post-meta">
+          undefined • por undefined • Categoria: undefined
+        </div>
+
+        <h1 class="post-title">Quando procurar um dermatologista em Campinas?</h1>
+
+        <p class="post-excerpt">undefined</p>
+
+        <div class="post-cover">
+          <img src="undefined" alt="undefined">
+        </div>
+
+        <div class="post-content">
+          <h1>Quando procurar um dermatologista em Campinas?</h1>
+
+<p>Cuidar da saúde da pele é um hábito essencial para quem deseja bem-estar e autoestima. No entanto, muitas pessoas ainda têm dúvidas sobre quando é o momento certo de buscar auxílio especializado. O dermatologista atua na prevenção, diagnóstico e tratamento de diversas condições, desde alterações leves até doenças mais complexas.<br><br>Informar-se sobre os sinais de alerta e entender como funciona o atendimento médico pode evitar agravamentos e proporcionar melhores resultados para a sua pele. Neste artigo, vamos explorar situações em que é fundamental procurar um profissional qualificado, dicas para escolher o especialista ideal em Campinas e orientações práticas para manter a saúde dermatológica em dia.</p>
+
+<h2>Sinais comuns que indicam a necessidade de consultar um dermatologista</h2>
+
+<p>Mudanças súbitas na textura, cor ou formato da pele, como machas, pintas ou feridas que não cicatrizam, podem indicar a necessidade de uma avaliação especializada. Coceira persistente, descamação, surgimento de nódulos ou o agravamento da acne também são motivos frequentes para procurar orientação médica.<br><br>Além disso, pessoas com histórico familiar de doenças dermatológicas devem ficar ainda mais atentas a qualquer sintoma diferente. O acompanhamento de um <a href="http://campinasdermatologista.com.br/">dermatologista campinas</a> é fundamental para identificar precocemente eventuais problemas e garantir o tratamento correto. Não deixe sinais passarem despercebidos e priorize sempre cuidados preventivos quando se trata da pele.</p>
+
+<h2>Importância do diagnóstico precoce em doenças de pele</h2>
+
+<p>Detectar doenças dermatológicas nos estágios iniciais aumenta consideravelmente as chances de sucesso no tratamento. O diagnóstico precoce possibilita intervenções menos invasivas, menor tempo de recuperação e prevenção de complicações graves, como infecções ou cicatrizes permanentes.<br><br>Além disso, alterações aparentemente simples podem ser sinais de condições mais sérias, como câncer de pele, psoríase ou dermatite crônica. Por isso, manter consultas regulares com profissionais capacitados é uma estratégia fundamental, tanto para quem já teve algum problema anterior quanto para quem busca apenas manter a saúde. Investir na atenção aos detalhes faz toda a diferença para a qualidade de vida e autoestima.</p>
+
+<h2>Principais tratamentos oferecidos por dermatologistas em Campinas</h2>
+
+<p>Na cidade de Campinas, clínicas dermatológicas oferecem uma ampla gama de tratamentos adaptados às necessidades individuais dos pacientes. Entre os procedimentos mais procurados estão o controle da acne, tratamentos para manchas, rejuvenescimento facial, aplicação de toxina botulínica e preenchimentos.<br><br>Além disso, há opções de terapias para doenças crônicas, como psoríase e vitiligo, e orientações sobre cuidados diários com a pele. Os avanços tecnológicos permitem resultados naturais e seguros, sempre sob supervisão médica. Consultar um especialista garante acesso às melhores condutas e personalização do atendimento, promovendo saúde, beleza e bem-estar para pessoas de todas as idades em Campinas.</p>
+
+<h2>Como escolher o dermatologista certo na região de Campinas</h2>
+
+<p>Optar por um profissional de confiança é o primeiro passo para garantir resultados satisfatórios. Busque indicações entre amigos ou familiares, confira a formação acadêmica e registre-se no Conselho Regional de Medicina, o que atesta a qualidade do atendimento.<br><br>Localização, infraestrutura da clínica e disponibilidade para tirar dúvidas também são fatores importantes na decisão. Avaliações em sites especializados ajudam a ter uma noção sobre a experiência de outros pacientes. Em Campinas, a oferta de profissionais é ampla, por isso, reserve um tempo para pesquisar e agendar uma consulta com aquele que faça você se sentir seguro e acolhido durante todo o processo.</p>
+
+<h2>Dicas para cuidar da pele e prevenir problemas dermatológicos</h2>
+
+<p>Adotar hábitos saudáveis no dia a dia é fundamental para evitar o surgimento de doenças de pele. Mantenha uma rotina de limpeza suave, use filtro solar diariamente e evite exposição excessiva ao sol, que pode causar manchas, envelhecimento precoce e até câncer de pele.<br><br>Alimentação balanceada, hidratação e evitar produtos agressivos também contribuem para uma pele mais bonita e saudável. Além disso, realizar consultas periódicas com um especialista possibilita o acompanhamento profissional e ajustes conforme as necessidades individuais. Esteja atento aos sinais do seu corpo e valorize o autocuidado como parte da sua rotina de bem-estar e saúde.</p>
+
+<h2>Conclusão</h2>
+
+<p>Buscar a orientação de um especialista é o caminho mais seguro para manter a pele saudável e bonita em todas as fases da vida. Ficar atento a alterações, apostar na prevenção e investir em consultas com um <a href="http://campinasdermatologista.com.br/">dermatologista campinas</a> são atitudes que fazem toda a diferença no resultado dos tratamentos e na autoestima.<br><br>Com a diversidade de opções em Campinas, é possível encontrar o profissional ideal para suas necessidades. Valorizar os cuidados diários e buscar acompanhamento médico regular são práticas que refletem compromisso com a saúde e o bem-estar, promovendo mais qualidade de vida.</p>
+        </div>
+
+        <div class="post-footer">
+          Última atualização: undefined
+        </div>
+
+        <section class="post-bottom">
+          <div class="bottom-card">
+            <h2 class="bottom-title">Mais conteúdos para você</h2>
+            <div id="bottom-featured-posts">
+              <p class="loading-text">Carregando conteúdos...</p>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <aside class="sidebar">
+        <section class="sidebar-card">
+          <h2 class="sidebar-title">Posts recentes</h2>
+          <div id="recent-posts">
+            <p class="loading-text">Carregando posts recentes...</p>
+          </div>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <script>
+    async function fetchJson(path) {
+      const response = await fetch(path, { cache: 'no-cache' });
+      if (!response.ok) {
+        throw new Error('Erro ao carregar ' + path);
+      }
+      return response.json();
+    }
+
+    function escapeHtml(str) {
+      return String(str ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function normalizePath(url) {
+      try {
+        const parsed = new URL(url, window.location.origin);
+        return parsed.pathname.replace(/\/+$/, '') || '/';
+      } catch {
+        return String(url || '')
+          .replace(window.location.origin, '')
+          .replace(/\/+$/, '') || '/';
+      }
+    }
+
+    function renderRecentPosts(posts) {
+      const container = document.getElementById('recent-posts');
+      if (!container) return;
+
+      if (!posts.length) {
+        container.innerHTML = '<p class="empty-text">Nenhum post recente encontrado.</p>';
+        return;
+      }
+
+      container.innerHTML = `
+        <ul class="sidebar-list">
+          ${posts.map(post => `
+            <li class="sidebar-item">
+              <a href="${escapeHtml(post.url)}" class="sidebar-link">${escapeHtml(post.title)}</a>
+              <span class="sidebar-meta">${escapeHtml(post.date || '')}${post.category ? ' • ' + escapeHtml(post.category) : ''}</span>
+            </li>
+          `).join('')}
+        </ul>
+      `;
+    }
+
+    function renderBottomFeatured(posts) {
+      const container = document.getElementById('bottom-featured-posts');
+      if (!container) return;
+
+      if (!posts.length) {
+        container.innerHTML = '<p class="empty-text">Nenhum conteúdo adicional encontrado.</p>';
+        return;
+      }
+
+      container.innerHTML = `
+        <ul class="bottom-list">
+          ${posts.map(post => `
+            <li class="bottom-item">
+              <a href="${escapeHtml(post.url)}" class="bottom-link">${escapeHtml(post.title)}</a>
+              <span class="bottom-meta">${escapeHtml(post.date || '')}${post.category ? ' • ' + escapeHtml(post.category) : ''}</span>
+            </li>
+          `).join('')}
+        </ul>
+      `;
+    }
+
+    async function loadDynamicPostWidgets() {
+      try {
+        const currentPath = normalizePath(window.location.pathname);
+
+        const [recentPostsRaw, featuredPostsRaw] = await Promise.all([
+          fetchJson('/data/recent-posts.json'),
+          fetchJson('/data/featured-posts.json')
+        ]);
+
+        const recentPosts = Array.isArray(recentPostsRaw) ? recentPostsRaw : [];
+        const featuredPosts = Array.isArray(featuredPostsRaw) ? featuredPostsRaw : [];
+
+        const filteredRecent = recentPosts
+          .filter(post => normalizePath(post.url) !== currentPath)
+          .slice(0, 6);
+
+        const bottomFeatured = featuredPosts
+          .filter(post => normalizePath(post.url) !== currentPath)
+          .slice(0, 12);
+
+        renderRecentPosts(filteredRecent);
+        renderBottomFeatured(bottomFeatured);
+      } catch (error) {
+        console.error(error);
+
+        const recentEl = document.getElementById('recent-posts');
+        const bottomEl = document.getElementById('bottom-featured-posts');
+
+        if (recentEl) {
+          recentEl.innerHTML = '<p class="empty-text">Não foi possível carregar os posts recentes.</p>';
+        }
+
+        if (bottomEl) {
+          bottomEl.innerHTML = '<p class="empty-text">Não foi possível carregar os conteúdos relacionados.</p>';
+        }
+      }
+    }
+
+    loadDynamicPostWidgets();
+  </script>
+</body>
+</html>
