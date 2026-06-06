@@ -1,5 +1,77 @@
 [
   {
+    "id": 50,
+    "title": "Check-up odontológico: por que a prevenção ainda é o melhor tratamento?",
+    "slug": "/check-up-odontologico-prevencao",
+    "url": "https://bonventrmedia.com/check-up-odontologico-prevencao/",
+    "date": "",
+    "category": "Saúde Bucal",
+    "excerpt": "Veja como o check-up odontológico regular pode prevenir problemas sérios e manter seu sorriso saudável. Saiba por que prevenir é sempre o melhor tratamento.",
+    "cover_image": "/img/pexels-photo-5622026.jpeg",
+    "cover_image_alt": "Check-up odontológico: por que a prevenção ainda é o melhor tratamento?",
+    "author": "Marcos Fagudes"
+  },
+  {
+    "id": 49,
+    "title": "Como funciona a consulta com psiquiatra na cidade de Balsas?",
+    "slug": "/consulta-psiquiatra-balsas",
+    "url": "https://bonventrmedia.com/consulta-psiquiatra-balsas/",
+    "date": "",
+    "category": "Saúde Mental",
+    "excerpt": "Entenda como é a consulta com psiquiatra em Balsas, os passos do atendimento e dicas essenciais para otimizar seu tratamento de saúde mental.",
+    "cover_image": "/img/pexels-photo-5700150.jpeg",
+    "cover_image_alt": "Como funciona a consulta com psiquiatra na cidade de Balsas?",
+    "author": "Marcos Fagudes"
+  },
+  {
+    "id": 48,
+    "title": "Saúde mental em foco: o papel do psiquiatra em Manaus",
+    "slug": "/papel-psiquiatra-manaus",
+    "url": "https://bonventrmedia.com/papel-psiquiatra-manaus/",
+    "date": "",
+    "category": "Saúde Mental",
+    "excerpt": "Descubra o papel do psiquiatra em Manaus e como o cuidado especializado pode transformar a saúde mental e a qualidade de vida. Saiba quando e como buscar ajuda.",
+    "cover_image": "/img/pexels-photo-7447058.jpeg",
+    "cover_image_alt": "Saúde mental em foco: o papel do psiquiatra em Manaus",
+    "author": "Marcos Fagudes"
+  },
+  {
+    "id": 47,
+    "title": "Dicas para agendar consulta com dermatologista em São Paulo",
+    "slug": "/agendar-dermatologista-sao-paulo",
+    "url": "https://bonventrmedia.com/agendar-dermatologista-sao-paulo/",
+    "date": "",
+    "category": "Bem Estar",
+    "excerpt": "Aprenda como agendar consulta com dermatologista em São Paulo com praticidade e descubra as melhores dicas para cuidar da saúde da sua pele.",
+    "cover_image": "/img/pexels-photo-4586740.jpeg",
+    "cover_image_alt": "Dicas para agendar consulta com dermatologista em São Paulo",
+    "author": "Marcos Fagudes"
+  },
+  {
+    "id": 46,
+    "title": "Ortodontia em São Paulo: alinhando o sorriso com tecnologia",
+    "slug": "/ortodontia-sao-paulo-tecnologia",
+    "url": "https://bonventrmedia.com/ortodontia-sao-paulo-tecnologia/",
+    "date": "",
+    "category": "Saúde Bucal",
+    "excerpt": "Descubra como a ortodontia em São Paulo usa tecnologia de ponta para transformar sorrisos com mais rapidez, conforto e resultados personalizados.",
+    "cover_image": "/img/pexels-photo-6627330.jpeg",
+    "cover_image_alt": "Ortodontia em São Paulo: alinhando o sorriso com tecnologia",
+    "author": "Marcos Fagudes"
+  },
+  {
+    "id": 45,
+    "title": "Como manter a saúde bucal em dia mesmo com uma rotina corrida?",
+    "slug": "/saude-bucal-rotina-corrida",
+    "url": "https://bonventrmedia.com/saude-bucal-rotina-corrida/",
+    "date": "",
+    "category": "Saúde Bucal",
+    "excerpt": "Mesmo com uma rotina agitada, é possível cuidar bem dos dentes. Aprenda estratégias simples para garantir sua saúde bucal sem perder tempo.",
+    "cover_image": "/img/pexels-photo-8413334.jpeg",
+    "cover_image_alt": "Como manter a saúde bucal em dia mesmo com uma rotina corrida?",
+    "author": "Marcos Fagudes"
+  },
+  {
     "id": 44,
     "title": "Aplicação de botox em Curitiba: cuidados antes e depois do procedimento",
     "slug": "/botox-curitiba-cuidados",
