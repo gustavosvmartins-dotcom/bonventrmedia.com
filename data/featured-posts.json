@@ -1,5 +1,77 @@
 [
   {
+    "id": 62,
+    "title": "Botox e naturalidade: é possível suavizar rugas sem exageros?",
+    "slug": "/botox-naturalidade-suavizar-rugas-sem-exageros",
+    "url": "https://bonventrmedia.com/botox-naturalidade-suavizar-rugas-sem-exageros/",
+    "date": "4/9/2026",
+    "category": "Bem Estar",
+    "excerpt": "Saiba como conquistar rejuvenescimento com Botox sem perder a naturalidade. Veja dicas para evitar exageros e valorizar a sua beleza autêntica!",
+    "cover_image": "/img/pexels-photo-27925589.jpeg",
+    "cover_image_alt": "Botox e naturalidade: é possível suavizar rugas sem exageros?",
+    "author": "Marcos Fagudes"
+  },
+  {
+    "id": 61,
+    "title": "Implantes dentários: dúvidas comuns antes do procedimento",
+    "slug": "/implantes-dentarios-duvidas-frequentes",
+    "url": "https://bonventrmedia.com/implantes-dentarios-duvidas-frequentes/",
+    "date": "4/9/2026",
+    "category": "Saúde Bucal",
+    "excerpt": "Descubra quais dúvidas são mais comuns antes de fazer implantes dentários e quais cuidados garantem o sucesso do tratamento. Esclareça-se e conquiste mais qualidade de vida.",
+    "cover_image": "/img/pexels-photo-5938281.jpeg",
+    "cover_image_alt": "Implantes dentários: dúvidas comuns antes do procedimento",
+    "author": "Marcos Fagudes"
+  },
+  {
+    "id": 60,
+    "title": "O que esperar da primeira consulta com um psiquiatra?",
+    "slug": "/primeira-consulta-psiquiatra",
+    "url": "https://bonventrmedia.com/primeira-consulta-psiquiatra/",
+    "date": "4/9/2026",
+    "category": "Saúde Mental",
+    "excerpt": "Saiba como é a primeira consulta com o psiquiatra, o que acontece nesse encontro e como se preparar para tirar dúvidas e garantir um cuidado acolhedor à saúde mental.",
+    "cover_image": "/img/pexels-photo-7108352.jpeg",
+    "cover_image_alt": "O que esperar da primeira consulta com um psiquiatra?",
+    "author": "Marcos Fagudes"
+  },
+  {
+    "id": 59,
+    "title": "O que evitar após uma aplicação de botox?",
+    "slug": "/o-que-evitar-apos-aplicacao-botox",
+    "url": "https://bonventrmedia.com/o-que-evitar-apos-aplicacao-botox/",
+    "date": "4/9/2026",
+    "category": "Bem Estar",
+    "excerpt": "Saiba quais hábitos e cuidados evitar após aplicar botox para garantir um efeito duradouro, natural e seguro. Confira dicas que preservam resultados e previnem riscos.",
+    "cover_image": "/img/pexels-photo-13060605.jpeg",
+    "cover_image_alt": "O que evitar após uma aplicação de botox?",
+    "author": "Marcos Fagudes"
+  },
+  {
+    "id": 58,
+    "title": "Botox preventivo: vale a pena começar antes dos 30 anos?",
+    "slug": "/botox-preventivo-antes-dos-30",
+    "url": "https://bonventrmedia.com/botox-preventivo-antes-dos-30/",
+    "date": "4/9/2026",
+    "category": "Notícias",
+    "excerpt": "Saiba se começar o Botox antes dos 30 anos é seguro e eficiente para manter a juventude. Veja vantagens, riscos e dicas para uma decisão informada.",
+    "cover_image": "/img/pexels-photo-5888171.jpeg",
+    "cover_image_alt": "Botox preventivo: vale a pena começar antes dos 30 anos?",
+    "author": "Marcos Fagudes"
+  },
+  {
+    "id": 57,
+    "title": "Como se preparar para uma cirurgia plástica: guia para pacientes",
+    "slug": "/preparacao-cirurgia-plastica-guia",
+    "url": "https://bonventrmedia.com/preparacao-cirurgia-plastica-guia/",
+    "date": "4/9/2026",
+    "category": "Bem Estar",
+    "excerpt": "Descubra passo a passo como se preparar para uma cirurgia plástica e garanta mais segurança, recuperação tranquila e resultados satisfatórios no seu procedimento.",
+    "cover_image": "/img/pexels-photo-13697933.jpeg",
+    "cover_image_alt": "Como se preparar para uma cirurgia plástica: guia para pacientes",
+    "author": "Marcos Fagudes"
+  },
+  {
     "id": 56,
     "title": "Cirurgia plástica e autoestima: qual a relação?",
     "slug": "/cirurgia-plastica-autoestima-relacao",
